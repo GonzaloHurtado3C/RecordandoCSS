@@ -1,0 +1,38 @@
+.body {
+margin: 10px;
+padding: 10px;
+background-color: antiquewhite;
+height: auto;
+width: 100%;
+}
+.filas {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten si no caben */
+    justify-content: space-around; /* Espaciado uniforme entre imágenes */
+    align-items: center; /* Centra las imágenes verticalmente */
+background-color: aqua;
+}
+
+.filas2 {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten si no caben */
+    justify-content: space-around; /* Espaciado uniforme entre imágenes */
+    align-items: center; /* Centra las imágenes verticalmente */
+background-color: pink;
+}
+.filas3 {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten si no caben */
+    justify-content: space-around; /* Espaciado uniforme entre imágenes */
+    align-items: center; /* Centra las imágenes verticalmente */
+background-color: white;
+}
+
+.item img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
